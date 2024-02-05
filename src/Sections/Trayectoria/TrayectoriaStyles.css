@@ -32,7 +32,7 @@
     animation: moveGradient 4s infinite;
 } */
 
-@media (max-width: 1500px) {
+@media (max-width: 1024px) {
   
   #trayectoria{
     flex-direction: column;

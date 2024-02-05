@@ -9,7 +9,7 @@ const Trayectoria = () => {
   const [spanish] = useMyGlobalContext()
 
   return (
-    <div id='trayectoria' style={{ 'display': 'flex', 'justifyContent': 'center', 'gap': '4%', 'width': '85%', 'margin': '0 auto 0 auto','alignItems':'center' }}>
+    <div id='trayectoria' style={{ 'display': 'flex', 'justifyContent': 'center', 'gap': '4%', 'width': '85%', 'margin': '0 auto 0 auto'}}>
       <Card width='35em' height='27em'  cardMarginTop='50px'
         title={spanish ? 'Académica' : 'Academic'}
         isList={true}
