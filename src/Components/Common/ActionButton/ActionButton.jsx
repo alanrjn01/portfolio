@@ -6,7 +6,7 @@ import './ActionButtonStyles.css'
 const ActionButton = ({width,height,texto,icon,borderRadius, margin}) => {
   return (
     <div className='buttonContainer' style={{'width':width,'height':height,'borderRadius':borderRadius, 'margin':margin}}>
-      <a href={ icon === 'cv' ? "public/documents/cv/alanorejon-cv.pdf" : icon === 'contact' ? 'mailto:alanorejon2001@gmail.com' : null} target={ icon === 'cv' ? '_blank' : null} >
+      <a href={ icon === 'cv' ? "https://drive.google.com/drive/folders/1BWuOCIGnwwXex2zkEIK5Rg0vFmsPK-le?usp=sharing" : icon === 'contact' ? 'mailto:alanorejon2001@gmail.com' : null} target={ icon === 'cv' ? '_blank' : null} >
       <div style={{'display':'flex','height':'100%','justifyContent':'center','alignItems':'center'}}>
         {
           icon === 'cv' ? <LiaFileDownloadSolid color='#000' size='1em'></LiaFileDownloadSolid>
