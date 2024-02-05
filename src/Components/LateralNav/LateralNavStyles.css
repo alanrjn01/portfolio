@@ -1,0 +1,33 @@
+.nav{
+  background-color: var(--color-nav);
+  width: 9em;
+  position: fixed;
+  height: 100%;
+}
+
+.languageButtonContainer{
+  -webkit-box-shadow: 5px 6px 4px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 5px 6px 4px 0px rgba(0,0,0,0.25);
+  box-shadow: 5px 6px 4px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow: inset -7px -5px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: inset -7px -5px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: inset -7px -5px 5px 0px rgba(0,0,0,0.25);
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+
+}
+
+.languageButtonContainer:hover{
+  background-color: #aca6dd !important;
+  transition: background-color 0.5s ease;
+}
+
+
+@media (max-width: 1024px) {
+
+  
+  .nav {
+    display: none;
+  }
+
+}

@@ -1,0 +1,35 @@
+.background {
+  margin-left: 9em;
+}
+
+swiper-container::part(button-prev) {
+  color: #fff;
+}
+
+swiper-container::part(button-next) {
+  color: #fff;
+}
+
+.buttonContactContainer{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+}
+
+.buttonContactContainer > .buttonContainer{ 
+  display: none;
+}
+
+@media (max-width: 1024px) {
+
+  
+  .background {
+    margin-left: 0;
+  }
+
+  .buttonContactContainer > .buttonContainer{ 
+    display: block;
+  }
+
+}
+

@@ -1,0 +1,9 @@
+@media (max-width: 1024px) {
+
+  #habilidades {
+    width: 100%;
+    justify-content: inherit !important;
+    display: block !important;
+  }
+
+}

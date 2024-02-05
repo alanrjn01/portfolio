@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+
+  .proyectContainer > div > h3{
+    font-size: 0.9em !important;
+  }
+
+  .proyectContainer > div > p{
+    font-size: 0.8em !important;
+  }
+
+}

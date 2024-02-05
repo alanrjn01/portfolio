@@ -1,0 +1,8 @@
+.CircleIconContainer{
+  -webkit-box-shadow: 5px 6px 4px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 5px 6px 4px 0px rgba(0,0,0,0.25);
+  box-shadow: 5px 6px 4px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow: inset -7px -5px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: inset -7px -5px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: inset -7px -5px 5px 0px rgba(0,0,0,0.25);
+}

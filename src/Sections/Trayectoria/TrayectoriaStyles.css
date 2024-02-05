@@ -1,0 +1,51 @@
+@keyframes changeColor {
+  0% { color: #fff }
+  25% { color: #3631c6 }
+  50% { color: #fff }
+  75% { color: #3631c6 }
+  100% { color: #fff }
+}
+
+@keyframes moveGradient {
+  0% { background-position: 0% 0; }
+    50% { background-position: 100% 0; }
+    100% { background-position: 0% 0; }
+}
+
+.Trayectoria{
+  font-size: 2em;
+}
+
+
+.ColorLine{
+  width: 100%;
+    height: 4px; /* Ajusta la altura según sea necesario */
+    background: linear-gradient(to left, rgb(21, 0, 255), rgb(68, 169, 219), rgb(21, 0, 255));
+    background-size: 200% 100%;
+    animation: moveGradient 4s infinite;
+    border-radius: 3px;
+}
+
+/* hr{
+  background: linear-gradient(to left, rgb(21, 0, 255), rgb(68, 169, 219), rgb(21, 0, 255));
+    background-size: 200% 100%;
+    animation: moveGradient 4s infinite;
+} */
+
+@media (max-width: 1500px) {
+  
+  #trayectoria{
+    flex-direction: column;
+  }
+
+  .ColorLine{
+    display: none;
+  }
+
+  #trayectoria > div:nth-child(2) {
+    order: -1; 
+    margin-top: 30px;
+  }
+
+
+}

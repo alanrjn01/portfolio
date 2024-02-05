@@ -1,0 +1,15 @@
+.techCard{
+  display: flex;
+  border-radius: 35px;
+  border: none !important;
+}
+
+
+
+.textContainer{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
