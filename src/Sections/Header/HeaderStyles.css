@@ -29,10 +29,10 @@ h2 {
   align-items: center;
   align-self: center;
   cursor: pointer;
-  -webkit-box-shadow: inset -7px -5px 5px 0px rgba(0,0,0,0.25);
--moz-box-shadow: inset -7px -5px 5px 0px rgba(0,0,0,0.25);
-box-shadow: inset -7px -5px 5px 0px rgba(0,0,0,0.25);
-transition: background-color 0.5s ease;
+  -webkit-box-shadow: inset -7px -5px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: inset -7px -5px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: inset -7px -5px 5px 0px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.5s ease;
 
 }
 
@@ -41,23 +41,7 @@ transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
 }
 
-#header > .buttonContainer{ 
-  display: none;
-}
 
-#header > .languageHeader{
-  display: none !important;
-}
-
-
-@media (max-width: 1024px) {
-
-#header > .buttonContainer{ 
-  display: block;
-}
-
-#header > .languageHeader{
+#header>.languageHeader {
   display: flex !important;
-}
-
 }

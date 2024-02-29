@@ -9,11 +9,7 @@ function App() {
   return (
     <>
       <GlobalProvider>
-        <LateralNav>
-
-        </LateralNav>
         <Background>
-
         </Background>
       </GlobalProvider>
 
